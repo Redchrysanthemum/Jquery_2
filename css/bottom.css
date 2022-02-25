@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* a태그 초기화 */
+ a {text-decoration: none; color: inherit;}
+body{font-family: "dongle";}
+
+/* font */
+ @font-face{
+	font-family:'dongle';
+	src:local('Dongle-Regular'),
+	url('../font/Dongle-Regular.eot'),
+	url('../font/Dongle-Regular.woff') format('woff'),
+	url('../font/Dongle-Regular.ttf') format('truetype');
+} 
+
+
+
+/* bottom */
+#bottom{clear: both; background-color: #000; width: 100%; height: 310px; color: #ccc; position: relative;}
+#bottom > ul li {float: left; font-size: 30px;}
+
+.sns_img li {float: left; margin: 0 20px; }
+#sns p {font-size: 40px;color: #ccc; clear: both;}
+/* absolute */
+#bottom > ul {position: absolute; left: 90px; top: 50px;} 
+#bottom address {font-style: normal; font-size: 25px; color: #666; position: absolute; left: 90px;}
+#bottom > p {clear: both; font-size: 20px; color: #999; position: absolute; left: 90px; top: 100px;}
+#bottom address {position: absolute; top: 200px;}
+#sns > p {position: absolute; left: 65%; top: 10%;}
+.sns_img {position: absolute; left: 75%; top: 10%;}
+#support{position: absolute; right: 15%; top: 40%;}
+
+.sns_img li a:hover img {width: 34px; height: 34px;}

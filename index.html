@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/jquery.ui.totop.min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+      $(document).ready(function () {
+        $().UItoTop({ easingType: "easeOutQuart" });
+      });
+    </script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="shortcut icon" href="images/common/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/modal.css" media="all" />
+    <link rel="stylesheet" href="css/ui.totop.css" />
+    <link rel="stylesheet" href="css/top.css" />
+    <link rel="stylesheet" href="css/bottom.css" />
+    <link rel="stylesheet" href="css/index1.css" />
+  </head>
+  <body>
+    <div id="notice_wrap">
+      <div class="notice_content">
+        <p class="notice_txt1">NOTICE</p>
+        <p class="notice_txt2">
+          본 사이트는 상업적 목적이 아닌<br />개인 포트폴리오 용도로
+          만들어졌습니다.<br />
+          홈페이지의 일부 내용과 이미지 등은<br />
+          그 출처가 따로 있음을 밝힙니다.<br />
+          본 사이트는 HTML5와 CSS3를 기준으로 하여 <br />크로스브라우징 기술을
+          기반으로 한 <br />익스플로러11이상, 구글 크롬에 최적화된
+          홈페이지입니다.
+        </p>
+        <p class="qr_img">
+          <img
+            src="images/modal/modal_qr.jpg"
+            alt="QR"
+            width="100"
+            height="100"
+          />
+        </p>
+      </div>
+      <!--notice_content-->
+      <p class="notice_txt3">
+        <a href="#"
+          ><img
+            src="images/modal/close_img.png"
+            alt="close"
+            width="20"
+            height="20"
+            class="close_btn"
+        /></a>
+      </p>
+    </div>
+    <!--notice_wrap-->
+    <header id="top">
+      <div id="gnb">
+        <div class="logo">
+          <a href="index.html"></a>
+        </div>
+
+        <ul id="menu1">
+          <li>
+            <a href="#">스토어</a>
+            <ul class="submenu">
+              <li><a href="#">추천제품</a></li>
+              <li><a href="#">선물제안</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">전자제품</a>
+            <ul class="submenu">
+              <li><a href="camera.html">카메라</a></li>
+              <li><a href="#">비디오 카메라</a></li>
+              <li><a href="#">오디오</a></li>
+              <li><a href="#">액세서리</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">PlayStation</a>
+            <ul class="submenu">
+              <li><a href="#">전체 상품</a></li>
+              <li><a href="#">이벤트</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">고객서비스</a>
+            <ul class="submenu">
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">정품등록 안내</a></li>
+              <li><a href="support.html">제품 지원</a></li>
+              <li><a href="#">구매 상담</a></li>
+              <li><a href="#">직영점 안내</a></li>
+              <li><a href="#">동영상 강좌</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- menu1 -->
+        <div class="fullmenu"></div>
+      </div>
+      <div id="icon">
+        <ul>
+          <li>
+            <a href="#"><img src="images/common/search2.svg" alt="search" /></a>
+          </li>
+          <li>
+            <a href="login.html"
+              ><img src="images/common/login.svg" alt="login"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/common/cart.svg" alt="cart" /></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div id="section">
+      <img
+        src="images/01_index/main.img.png"
+        alt="mainimage"
+        width="1400"
+        height="300"
+      />
+      <h2>인기 신제품</h2>
+      <ul id="menu_wrap">
+        <li><a href="#camera_wrap" class="selected">카메라</a></li>
+        <li><a href="#lens_wrap">렌즈</a></li>
+        <li><a href="#acess_wrap">액세서리</a></li>
+      </ul>
+      <div id="sub_img">
+        <div id="camera_wrap">
+          <ul class="cimg moveimg">
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/camera1.jpeg" alt="#"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/camera2.jpeg" alt="#"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/camera3.jpeg" alt="#"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/camera4.jpeg" alt="#"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/camera5.jpeg" alt="#"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/camera6.jpeg" alt="#"
+              /></a>
+            </li>
+          </ul>
+          <ul class="btn_all">
+            <li class="prev"><a href="#">버튼1</a></li>
+            <li class="next"><a href="#">버튼2</a></li>
+          </ul>
+        </div>
+        <div id="lens_wrap">
+          <ul class="cimg moveimg">
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/lens1.jpeg" alt="#"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/lens2.jpeg" alt="#"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/lens3.jpeg" alt="#"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/lens4.jpeg" alt="#"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/lens5.jpeg" alt="#"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/lens6.jpeg" alt="#"
+              /></a>
+            </li>
+          </ul>
+          <ul class="btn_all">
+            <li class="prev"><a href="#">버튼1</a></li>
+            <li class="next"><a href="#">버튼2</a></li>
+          </ul>
+        </div>
+        <div id="acess_wrap">
+          <ul class="cimg">
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/acess1.jpeg" alt="#"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/acess2.jpeg" alt="#"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/01_index/01_img/acess3.jpeg" alt="#"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="aside">
+        <p>
+          <a
+            href="https://www.youtube.com/c/SonyKorea%EC%86%8C%EB%8B%88%EC%BD%94%EB%A6%AC%EC%95%84/featured"
+            target="_blank"
+          >
+            <img src="images/01_index/02_img/youtube.jpg" alt="youtube"
+          /></a>
+        </p>
+        <p class="txt1">
+          <span id="youtube">소니코리아 공식 유튜브 채널 오픈</span
+          ><br />카메라.렌즈.액세서리의 Alpha부터 ZV까지 최신제품소식을 먼저
+          만나보세요!
+        </p>
+      </div>
+      <div id="see">
+        <h3>시각적 표현의세계 발견</h3>
+        <ul id="see_img">
+          <li>
+            <a href="#"
+              ><img src="images/01_index/03_img/woman.jpeg" alt="#"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/01_index/03_img/dog.jpeg" alt="#"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/01_index/03_img/kid.jpeg" alt="#"
+            /></a>
+          </li>
+          <li class="see_txt1">정밀한 Eye Af</li>
+          <li class="see_txt2">리얼타임 동물 Eye Af</li>
+          <li class="see_txt3">미러리스의 이점</li>
+        </ul>
+      </div>
+      <div id="idea">
+        <h3>창의적인 당신을 위한 창의적 도구</h3>
+        <ul id="idea_img">
+          <li>
+            <a href="#"
+              ><img src="images/01_index/04_img/lens1.jpeg" alt="#"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/01_index/04_img/lens2.jpeg" alt="#"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/01_index/04_img/note.jpeg" alt="#"
+            /></a>
+          </li>
+          <li class="see_txt4">정밀한 Eye Af</li>
+          <li class="see_txt5">리얼타임 동물 Eye Af</li>
+          <li class="see_txt6">미러리스의 이점</li>
+        </ul>
+      </div>
+    </div>
+    <footer id="bottom">
+      <ul>
+        <li>이용약관&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+        <li>개인정보처리방침&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+        <li>소비자피해보상보험&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+        <li>사이트맵</li>
+      </ul>
+      <p>
+        *&nbsp;본 사이트의 컨텐츠는 저작권법의 보호를 받는 바, 상업적 목적의
+        무단전재, 복사, 배포 등을 금합니다.<br />
+        *&nbsp;고객님의 안정한 거래를 위해 현금 등의 거래를 통한 결제를 하실
+        경우,<br />
+        &nbsp;&nbsp;KG이니시스의 구매 안전서비스(채무지급보증)를 이용하실 수
+        있습니다.
+      </p>
+      <address>
+        사업장주소 : 서울특별시 영등포구 국제금융로 10 원아이에프씨 24F<br />사업자
+        등록번호 : 106-81-23810 통신판매번호 2012-서울영등포-1038
+        소니코리아㈜<br />대표이사 : Okura Kikuo개인정보관리책임자 : Okura
+        KikuoTEL : 소니코리아 고객센터 1588-0911E-MAIL : cshelp@sony.co.kr
+        <p>Copyright © Sony Korea Corporation. All rights reserved.</p>
+      </address>
+      <div id="sns">
+        <p>FOLLOW US</p>
+        <ul class="sns_img">
+          <li>
+            <a href="https://www.facebook.com/sonykorea" target="_blank"
+              ><img
+                src="images/common/ic_facebook.png"
+                alt="facebook"
+                width="32"
+                height="32"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/sonykorea/" target="_blank"
+              ><img
+                src="images/common/ic_instagram.png"
+                alt="instar"
+                width="32"
+                height="32"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/user/sonystyleblog" target="_blank"
+              ><img
+                src="images/common/ic_youtube.png"
+                alt="youtube"
+                width="32"
+                height="32"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://stylezineblog.com/?intcmp=Main_Blog"
+              target="_blank"
+              ><img
+                src="images/common/ic_blog.png"
+                alt="blue"
+                width="32"
+                height="32"
+            /></a>
+          </li>
+        </ul>
+        <div id="support">
+          <p>고객센터 : 1588-0911</p>
+          <p>고객센터 운영시간 : 09:00~17:00</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

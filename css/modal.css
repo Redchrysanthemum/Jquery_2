@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/*notice_wrap*/
+#notice_wrap{width:500px; height:450px; margin: 0 auto; position:fixed; left:33%; top:22%; z-index:20; background-color: #fff; border-radius:20px; box-shadow:0px 3px 3px #333; overflow: hidden; z-index:99999999999}
+.notice_content{width:500px; height:410px; position: relative;}
+.notice_txt1{font:bold 30px/1.5em "Arial",sans-serif; text-align: center; color:#fff; width:480px; height:50px; background-color: rgba(000,000,000,0.7); padding:10px;}
+.notice_txt2{margin-top: 30px; text-align:center; color:#093687; font-size:25px; line-height:24px;}
+.qr_img{margin:20px auto; box-shadow:1px px 1px #ccc; width:100px; height:100px;}
+.notice_txt3{position: absolute; top:15px; right:15px; z-index:2;}
+
+/*모달css*/
+#glayLayer{z-index:10; position:fixed; left:0 ;top:0; height:100%; width:100%; background:black; filter:alpha(opacity=80); opacity: 0.8;}
+#overLayer{display:none; position: fixed; top:50%; left:50%; margin-top:-244px; margin-left:-325px;}
+
+#glayLayer2{z-index:999999999; position:fixed; left:0 ;top:0; height:100%; width:100%; background:black; filter:alpha(opacity=80); opacity: 0.8; }
+#overLayer2{display:none; position: fixed; top:50%; left:50%; margin-top:-244px; margin-left:-325px;}

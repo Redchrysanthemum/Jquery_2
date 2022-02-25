@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.ui.totop.min.js"></script>
+	<script src="js/easing.js"></script>
+	<script src="js/flex.js"></script>
+    <script>
+		$(document).ready(function() {
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="images/common/favicon.ico">
+    <link rel="stylesheet" href="css/ui.totop.css"/>
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/flex.css">
+</head>
+<body>
+    <header id="top">
+		<div id="gnb">
+			<div class="logo">
+				<a href="index.html"></a>
+			</div>
+			
+			<ul id="menu1">
+				<li><a href="#">스토어</a>
+					<ul class="submenu">
+						<li><a href="#">추천제품</a></li>
+						<li><a href="#">선물제안</a></li>
+						
+					</ul>
+				</li>
+				<li><a href="#">전자제품</a>
+					<ul class="submenu">
+						<li><a href="camera.html">카메라</a></li>
+						<li><a href="#">비디오 카메라</a></li>
+						<li><a href="#">오디오</a></li>
+						<li><a href="#">액세서리</a></li>
+					</ul>
+				</li>
+				<li><a href="#">PlayStation</a>
+                    <ul class="submenu">
+						<li><a href="#">전체 상품</a></li>
+						<li><a href="#">이벤트</a></li>
+					</ul>
+                </li>
+				<li><a href="#">고객서비스</a>
+					<ul class="submenu">
+						<li><a href="#">공지사항</a></li>
+						<li><a href="#">정품등록 안내</a></li>
+						<li><a href="support.html">제품 지원</a></li>
+						<li><a href="#">구매 상담</a></li>
+						<li><a href="#">직영점 안내</a></li>
+						<li><a href="#">동영상 강좌</a></li>
+					</ul>
+				</li>
+			</ul><!-- menu1 -->	
+			<div class="fullmenu"></div>	
+		</div>
+		<div id="icon">
+			<ul>
+				<li><a href="#"><img src="images/common/search2.svg" alt="search"></a></li>
+				<li><a href="login.html"><img src="images/common/login.svg" alt="login"></a></li>
+				<li><a href="#"><img src="images/common/cart.svg" alt="cart"></a></li>
+			</ul>
+		</div>
+	</header>
+    <div id="wrap">
+        <p id="main_img"></p>
+        <aside>
+            <figure id="r_camera">
+                <figcaption>
+                    &#x3b1;1<br>
+                    독보적인 존재감<br>
+                    소니는 비할 데 없는 해상도와 속도를 선사하고<br>
+                    직관적인 조작을 가능하게 하는 혁신적인 기술을 통해<br>
+                    기존의 이미징 도구가 가진 한계점에 끊임없이 도전합니다.<br>
+                    &#x3b1;1은 효율적인 워크플로우와 함께 새로운 차원의 이미징<br>
+                    성능을 통해 사용자에게 무한한 표현의 자유를 선사합니다.
+                </figcaption>
+                <img src="images/03_flex/r_camera.png" alt="r_camera">
+            </figure>
+            <figure id="s_camera">
+                <img src="images/03_flex/s_camera.jpg" alt="s_camera">
+                <figcaption class="txt text1">
+                    렌즈 교환식 카메라<br>
+                    탁월한 해상력과 속도를 발휘하는 알파 1
+                    ILCE-1
+                    <span class="txt text2">
+                        7,980,000 원
+                    </span>
+                    <span class="txt">
+                        <button>구매하기</button>
+                    </span>
+                </figcaption>
+                
+            </figure>
+        </aside>
+        <main>
+            <div id="nav">
+                <ul>
+                    <li><a href="#w_img">개요</a></li>
+                    <li><a href="#sub_img1">사양 및 기능</a></li>
+                    <li><a href="#">수상</a></li>
+                    <li><a href="#">랜즈 및 액세서리</a></li>
+                    <li><a href="#">지원</a></li>
+                </ul>
+            </div>
+            <figure id="w_img">
+                <img src="images/03_flex/main02.jpg " alt="woman">
+                <figcaption>
+                    <span class="txt1">&#x3b1; 미션</span> <br>
+                    &#x3b1;의 미션은 제작자가 자신의 꿈을 실현할 수 있도록<br>
+                    지원하는 것입니다. &#x3b1;1은 현재까지 출시된 제품<br>
+                    중에서 표현 기능이 가장 우수합니다.
+                </figcaption>
+            </figure>
+            <figure id="m_img">
+                <img src="images/03_flex/main03.jpg" alt="man">
+                <figcaption>
+                    <span class="txt2">50MP , 30fps</span> <br>
+                    최신 소니 기술이 전례 없는 속도와 해상도를 통해 새로운 창의력을<br>
+                    펼칠 수 있는 가능성과 워크플로우를 제공합니다.  
+                </figcaption>
+            </figure>
+            <div id="video">
+                <iframe width="966" height="543" src="https://www.youtube.com/embed/H0om2qHS1o4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="sub_img1">
+                <figure class="sub_img">
+                    <div class="img1">
+                    <img src="images/03_flex/sub01.jpg" alt="해상도와 속도">
+                    </div>
+                    <figcaption>
+                        해상도와 속도의 절묘한 조화 <br>
+                        <a href="#">자세히보기</a>
+                    </figcaption>
+                </figure>
+                <figure class="sub_img">
+                    <div class="img1">
+                    <img src="images/03_flex/sub02.jpg" alt="압도적인 화질">
+                    </div>
+                    <figcaption>
+                        압도적인 화질 <br>
+                        <a href="#">자세히보기</a>
+                    </figcaption>
+                </figure>
+                <figure class="sub_img">
+                    <div class="img1">
+                    <img src="images/03_flex/sub03.jpg" alt="비교할 수 없는 AF">
+                    </div>
+                    <figcaption>
+                        비교할 수 없는 AF <br>
+                        <a href="#">자세히보기</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div id="sub_img2">
+                <figure class="sub_img">
+                    <div class="img1">
+                    <img src="images/03_flex/sub04.jpeg" alt="전례없는 영상 성능">
+                    </div>
+                    <figcaption>
+                        전례없는 영상 성능 <br>
+                        <a href="#">자세히보기</a>
+                    </figcaption>
+                </figure>
+                <figure class="sub_img">
+                    <div class="img1">
+                    <img src="images/03_flex/sub05.jpeg" alt="어떤 장면도 문제 없는 컨트롤">
+                    </div>
+                    <figcaption>
+                        어떤 장면도 문제 없는 컨트롤 성능 및 안정성 <br>
+                        <a href="#">자세히보기</a>
+                    </figcaption>
+                </figure>
+                <figure class="sub_img">
+                    <div class="img1">
+                    <img src="images/03_flex/sub06.jpeg" alt="새로운 워크플로우">
+                    </div>  
+                    <figcaption>
+                        전문가의 요구 사항을 지원하는 새로운 워크플로우<br> 솔루션 <br>
+                        <a href="#">자세히보기</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </main>
+    </div>
+
+    <div id="content1">
+        <p>부가기능 &nbsp;&nbsp;<span id="semo2">&#9650;</span></p>
+    </div>
+    <div id="content2">
+        <ul>
+            <li>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;판매가격은 사전공지 없이 변경될 수 있습니다.</li>
+            <li>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대략적인 유효 픽셀.</li>
+            <li>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hi+" 연속 촬영 모드 사용. 1/125초 이상의 셔터 속도. AF-C 모드의 최대 연속 프레임 레이트는 촬영 모드 및 사용 렌즈에 따라 달라질 수 있습니다.</li>
+            <li>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10%의 이미지 크롭.</li>
+            <li>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;광학 바디 내장 이미지 흔들림 보정 기능을 갖춘 풀프레임 교환식 렌즈 디지털카메라 대상(2020년 9월 언론 발표일 기준, 소니 조사에 근거함)</li>
+            <li>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hi" 연속 촬영 모드. 셔터 속도가 1/125초 이상인 경우. AF-C 모드의 최대 연속 프레임 레이트는 촬영 모드 및 사용 렌즈에 따라 달라질 수 있습니다.</li>
+            <li>7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019년 8월 28일 현재 소니 자체 조사 결과. E 18~135mm F3.5~5.6 OSS 렌즈를 장착한 상태로 Pre-AF를 끄고 뷰파인더를 사용하여 CIPA 가이드라인에 따라 내부 측정 방법으로 측정.</li>
+            <li>8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3840 x 2160픽셀. XAVC S 포맷 영상 레코딩에는 Class 10 이상 SDHC/SDXC 카드가 필요합니다. 100Mbps에는 UHS-I(U3) SDHC/SDXC 카드가 필요합니다. HDR(HLG) 영상 재생 시 이 제품을 USB 케이블로 HDR(HLG) 호환 소니 TV에 연결할 수 있습니다.</li>
+            <li>9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소니 자체 조사 결과로서, E 18 ~ 135mm F3.5 ~ 5.6 OSS 렌즈를 장착한 상태로 Pre-AF를 끄고 뷰파인더를 사용하여 CIPA 가이드라인에 따라 내부 측정 방법으로 측정했습니다.</li>
+            <li>10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XAVC S 포맷 영상 레코딩에는 Class 10 이상 SDHC/SDXC 카드가 필요합니다. 100Mbps 레코딩에는 UHS-I(U3) SDHC/SDXC 카드가 필요합니다.</li>
+            <li>11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;연속 "Hi+" 모드 및 연속 "Hi" 모드의 최대 8fps에서 촬영 가능하며 최대 fps는 카메라 설정에 따라 달라집니다.</li>
+            <li>12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“Hi” 연속 촬영 모드. 셔터 속도가 1/125초 이상인 경우. AF-C 모드의 최대 연속 프레임 레이트는 촬영 모드 및 사용 렌즈에 따라 달라질 수 있습니다. 일부 렌즈에는 소프트웨어 업데이트가 필요할 수 있습니다.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;렌즈 호환성 정보는 소니의 지원 웹 페이지를 참고하세요. http://support.d-imaging.sony.co.jp/www/support/ilc/products/ilce9/continuousshooting/index.php?id=pdt</li>
+            <li>13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;연속 "Hi+" 모드에서 최대10fps 및 연속 "Hi" 모드의 최대 8fps. 최대 fps는 카메라 설정에 따라 달라집니다.</li>
+            <li>14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XAVC S 포맷 동영상 레코딩에는 Class 10 이상 SDHC/SDXC 카드가 필요합니다. 100Mbps 레코딩에는 UHS Speed Class 3 이상 카드가 필요합니다.</li>
+            <li>15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HDR(HLG) 영상 재생 시 이 제품을 USB 케이블로 HDR(HLG) 호환 가능 소니 TV에 연결할 수 있습니다.</li>
+            <li>16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;풀프레임 이미지 센서가 탑재된 디지털 카메라를 대상으로 조사한 결과입니다. 2015년 6월 보도자료 기준 소니 자체 조사 결과입니다.</li>
+            <li>17&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대략적인 유효 메가픽셀입니다.</li>
+            <li>18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;스틸 이미지 촬영 시 ISO 100-25600을 ISO 50 &#45;102400으로 확장할 수 있습니다.</li>
+            <li>19&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30p(25p)/24p 영상 설정.</li>
+            <li>20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CIPA 표준 기반. Pitch/yaw 흔들림만 해당. Sonnar T* FE 55mm F1.8 ZA 렌즈 마운트 시. 장기 노출 NR 꺼짐.</li>
+            <li>21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XAVC S 포맷으로 동영상 촬영 시, Class 10 이상의 SDHC/SDXC 메모리 카드가 필요합니다. 100Mbps 레코딩에는 UHS-I(U3) SDHC/SDXC 카드가 필요합니다.</li>
+            <li>22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;렌즈 교환식 디지털 카메라 중, 2016년 2월 기준 소니 자체 조사 결과. E PZ 16-50mm F3.5-5.6 OSS 렌즈를 장착한 상태로 Pre-AF를 끄고 뷰파인더를 사용하여, CIPA 가이드라인에 따라 내부 측정 방법으로 측정했습니다.</li>
+            <li>23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;디지털 카메라 중, 2016년 2월 기준 소니 자체 조사 결과.</li>
+            <li>24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제품의 색상 및 치수는 실제와 다를 수 있습니다.</li>
+            <li>25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;표시된 제품 컬러 및 기능은 모델 및 국가에 따라 달라질 수 있습니다.</li>
+            <li>26&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4K: 3,840 x 2,160픽셀.</li>
+            <li>27&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;거주하는 국가 또는 지역에 따라 사용할 수 없는 기능이 있습니다. 제품에 설치되거나 제품을 통해 액세스할 수있는 소프트웨어/서비스의 일부 또는 전부는 사전 통보없이 변경, 중단, 제거, 일시 중단 또는 해지될 수 있습니다.</li>
+            <li>28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;기능이나 사양은 사전 고지 없이 변경될 수 있습니다.</li>
+        </ul>
+    </div>
+
+<footer id="bottom">
+    <ul>
+        <li>이용약관&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+        <li>개인정보처리방침&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+        <li>소비자피해보상보험&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+        <li>사이트맵</li>
+    </ul>
+    <p>
+        *&nbsp;본 사이트의 컨텐츠는 저작권법의 보호를 받는 바, 상업적 목적의 무단전재, 복사, 배포 등을 금합니다.<br>
+        *&nbsp;고객님의 안정한 거래를 위해 현금 등의 거래를 통한 결제를 하실 경우,<br>
+        &nbsp;&nbsp;KG이니시스의 구매 안전서비스(채무지급보증)를 이용하실 수 있습니다.
+    </p>
+    <address>
+        사업장주소 : 서울특별시 영등포구 국제금융로 10 원아이에프씨 24F<br>사업자 등록번호 : 106-81-23810 통신판매번호 2012-서울영등포-1038 소니코리아㈜<br>대표이사 : Okura Kikuo개인정보관리책임자 : Okura KikuoTEL : 소니코리아 고객센터 1588-0911E-MAIL : cshelp@sony.co.kr
+        <p>Copyright © Sony Korea Corporation. All rights reserved.</p>
+    </address>
+    <div id="sns">
+        <p>FOLLOW US</p>
+        <ul class="sns_img">
+            <li><a href="https://www.facebook.com/sonykorea" target="_blank"><img src="images/common/ic_facebook.png" alt="facebook" width="32" height="32"></a></li>
+            <li><a href="https://www.instagram.com/sonykorea/" target="_blank"><img src="images/common/ic_instagram.png" alt="instar" width="32" height="32"></a></li>
+            <li><a href="https://www.youtube.com/user/sonystyleblog" target="_blank"><img src="images/common/ic_youtube.png" alt="youtube" width="32" height="32"></a></li>
+            <li><a href="https://stylezineblog.com/?intcmp=Main_Blog" target="_blank"><img src="images/common/ic_blog.png" alt="blue" width="32" height="32"></a></li>
+        </ul>
+        <div id="support">
+        <p>고객센터 : 1588-0911</p>
+        <p>고객센터 운영시간 : 09:00~17:00</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

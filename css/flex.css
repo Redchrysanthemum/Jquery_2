@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+html,body {width: 100%; height: 100%;}
+#wrap {width: 100%; }
+#main_img {height: 874px; margin: 0 auto; background: url("../images/03_flex/main01.jpeg")no-repeat center; width: 100%; }
+#r_camera {display: flex; width: 100%; background-color: #f1f5f9; justify-content:center}
+#r_camera figcaption {font-size: 35px; line-height: 50px; padding-top: 30px;  }
+#r_camera figcaption,#r_camera img {flex-shrink: 0;}
+#r_camera img{width: 583px; height: 409px; margin-left: 50px;}
+
+#s_camera {display: flex; justify-content: center; height: 110px; align-items: center; margin-top: 60px;}
+#s_camera figcaption.txt {font-size: 20px;  margin-left: 80px;}
+#s_camera figcaption.text1{ margin-right: 800px;}
+#s_camera span.text2{ font-size: 25px; margin-right: 10px;  }
+span.txt button {float: right; background-color: #d6830d; color: #fff; font-family: "dongle",sans-serif;  font-size: 20px; border: 1px solid transparent; width: 100px; cursor: pointer;}
+
+.text2 , .txt {margin-left: 50px; margin-top: 20px;}
+
+
+#nav {margin:40px 0; height: 50px;}
+#nav ul{display: flex; margin-left: 180px;}
+#nav ul li {margin-right: 40px; font-size: 30px;}
+#nav ul li:hover {border-bottom: 3px solid #093687;}
+
+#w_img {position: relative;}
+#w_img img {vertical-align: top;  width: 100%;}
+#w_img figcaption {position: absolute; color: #fff;   line-height: 60px;
+font-size: 40px; right: 18%; top: 20%;}
+#m_img {position: relative;}
+#m_img img{width: 100%;}
+#m_img figcaption {position: absolute; color: #000;   line-height: 60px;
+    font-size: 30px; left: 10%; top: 30%; background-color: #fff; padding: 20px;}
+span.txt2 {font-weight: bold; font-size: 40px;}
+
+#video {display: flex; justify-content: center; margin: 30px 0; margin-bottom: 300px;}
+
+
+#sub_img1 {display: flex; justify-content: center; }
+#sub_img2 {display: flex; justify-content: center; }
+.sub_img {margin:0 10px 100px 10px; }
+.sub_img img {width: 400px; height: 150px;}
+.img1 {width: 400px; height: 150px; overflow: hidden;}
+.sub_img figcaption {text-align: center; line-height: 30px; font-size: 20px; }
+.sub_img figcaption a {color: #093687;}
+.sub_img figcaption a:hover {text-decoration: underline;}
+/* 
+flex-direction: row = display:flex 의 기본값
+flex-direction: row-reverse; = 각각의속성들이 반대쪽으로 가서 정렬
+flex-direction: column = 수직방향 정렬
+flex-direction: column = 수직방향 이되 반대순서로 정렬
+*/
+
+
+#content1{clear: both; width: 100%; background-color: #f1f5f9; overflow: hidden;}
+#content1 p {height: 30px; display: block; font-size: 20px;  width: 100px; float: right; line-height: 30px; text-align: center; position: relative; cursor: pointer;}
+
+#semo2 {position: absolute; right: 20px;}
+#content2{clear: both; width: 100%;background-color: #f1f5f9; height: 1020px;}
+#content2 ul {width: 80%; margin: 0 auto;}
+#content2 ul li {font-size: 20px; margin-bottom: 15px;}

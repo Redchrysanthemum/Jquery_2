@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#wrap {width: 100%; }
+#top_img {margin-bottom: 50px; margin-top: 64px;}
+#top_img img {width: 100%;}
+#option {width: 100%; overflow: hidden; margin-bottom: 150px;}
+#option a {float: left; background-color: #d6830d; width: 100px; height: 30px; color: #fff; text-align: center; font-size: 25px; line-height: 30px; letter-spacing:0.3em; margin-left: 10%;}
+
+#filter {float: right; font-family: "dongle",sans-serif; font-size: 20px; margin-right: 10%;  letter-spacing: 0.3em; width: 120px; text-indent: 0.3em; border-radius: 4px; }
+#filter option { padding: 3px 0; }
+
+#s_img {width: 80%;  margin: 0 auto; }
+#simg_wrap {width: 80%;  margin: 0 auto;}
+figure {width: 330px; float: left; margin-bottom: 100px;  padding-left: 57px;}
+figure img{vertical-align: top;}
+figcaption{border: 1px solid #000; width: 318px; height: 350px;   padding-left: 10px; font-size: 17px;}
+.txt_t {font-weight: bold; margin-top: 5px; display: block; font-size: 18px;}
+.txt_c {font-size: 20px; margin-left: 5px;}
+.txt_b { float: right; font-weight: bold; margin-right: 10px; font-size: 20px;}
+
+#content1{clear: both; width: 100%; background-color: #f1f5f9; overflow: hidden;}
+#content1 p {height: 30px; display: block; font-size: 20px;  width: 100px; float: right; line-height: 30px; text-align: center; position: relative; cursor: pointer;}
+
+
+.semo2 {position: absolute; right: 20px;}
+#content2{clear: both; width: 100%;background-color: #f1f5f9; height: 1000px;}
+#content2 ul {width: 80%; margin: 0 auto;}
+#content2 ul li {font-size: 20px; margin-bottom: 15px;}
+
+

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>support</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.ui.totop.min.js"></script>
+	<script src="js/easing.js"></script>
+	<script src="js/support.js"></script>
+    <script>
+		$(document).ready(function() {
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="images/common/favicon.ico">
+    <link rel="stylesheet" href="css/ui.totop.css"/>
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/support.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#menu1 > li").mouseover(function(){
+                $(".submenu > li").show();
+            }).mouseout(function(){
+                $(".submenu > li").hide();
+            });
+        });
+    </script>
+</head>
+<body>
+    <header id="top">
+		<div id="gnb">
+			<div class="logo">
+				<a href="index.html"></a>
+			</div>
+			
+			<ul id="menu1">
+				<li><a href="#">스토어</a>
+					<ul class="submenu">
+						<li><a href="#">추천제품</a></li>
+						<li><a href="#">선물제안</a></li>
+						
+					</ul>
+				</li>
+				<li><a href="#">전자제품</a>
+					<ul class="submenu">
+						<li><a href="camera.html">카메라</a></li>
+						<li><a href="#">비디오 카메라</a></li>
+						<li><a href="#">오디오</a></li>
+						<li><a href="#">액세서리</a></li>
+					</ul>
+				</li>
+				<li><a href="#">PlayStation</a>
+                    <ul class="submenu">
+						<li><a href="#">전체 상품</a></li>
+						<li><a href="#">이벤트</a></li>
+					</ul>
+                </li>
+				<li><a href="#">고객서비스</a>
+					<ul class="submenu">
+						<li><a href="#">공지사항</a></li>
+						<li><a href="#">정품등록 안내</a></li>
+						<li><a href="support.html">제품 지원</a></li>
+						<li><a href="#">구매 상담</a></li>
+						<li><a href="#">직영점 안내</a></li>
+						<li><a href="#">동영상 강좌</a></li>
+					</ul>
+				</li>
+			</ul><!-- menu1 -->	
+			<div class="fullmenu"></div>	
+		</div>
+		<div id="icon">
+			<ul>
+				<li><a href="#"><img src="images/common/search2.svg" alt="search"></a></li>
+				<li><a href="login.html"><img src="images/common/login.svg" alt="login"></a></li>
+				<li><a href="#"><img src="images/common/cart.svg" alt="cart"></a></li>
+			</ul>
+		</div>
+	</header>
+    <main id="contnet">
+        <nav>
+            <p>소니고객지원에 오신것을 환영합니다.</p>
+            <input type="search" placeholder="상세 제품명 / 코드 검색 (ex.a6600,a7m3,a7c0 등)" id="search">
+        </nav>
+        
+        <div id="container">
+            <dl id="step1" class="option">
+                <dt>1 단계</dt>
+                <dd class="box1">범주 선택</dd>
+                <dd class="box2">&dtrif;</dd>
+            </dl>
+            <div id="figure_wrap">
+                <figure class="item">
+                    <img src="images/04_support/01_camera.jpg" alt="cam">
+                    <figcaption>
+                        카메라 &amp; 캠코더
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="images/04_support/02_audio.jpg" alt="video">
+                    <figcaption>
+                        오디오 &amp; 비디오
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="images/04_support/03_storage.jpg" alt="storage">
+                    <figcaption>
+                        스토리지 &amp; 레코딩 미디어
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="images/04_support/04_accessories.jpg" alt="accessori">
+                    <figcaption>
+                        액세서리
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="images/04_support/05_tablet.jpg" alt="tablet">
+                    <figcaption>
+                        스마트폰 및 태블릿
+                    </figcaption>
+                </figure>
+                <figure id="item">
+                    <img src="images/04_support/06_pc.jpg" alt="pc">
+                    <figcaption>
+                        PC
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="images/04_support/07_playstation.jpg" alt="playstation">
+                    <figcaption>
+                        PlayStation&circledR;
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="images/04_support/08_tv.jpg" alt="tv">
+                    <figcaption>
+                        TV 및 프로젝터
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="images/04_support/09_caraudio.jpg" alt="caraudio">
+                    <figcaption>
+                        카오디오
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="images/04_support/10_business.jpg" alt="business">
+                    <figcaption>
+                        비즈니스 및 전문가
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="images/04_support/11_sports.jpg" alt="sports">
+                    <figcaption>
+                        스포츠 엔터테인먼트
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="images/04_support/12_smart.jpg" alt="smart">
+                    <figcaption>
+                        Xperia 스마트 장치
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="images/04_support/13_more.png" alt="more">
+                    <figcaption>
+                        기타 제품
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <dl id="step2" class="option">
+                <dt>2 단계</dt>
+                <dd class="box1">하위 옵션 선택</dd>
+                <dd class="box2">&dtrif;</dd>
+            </dl>
+            <dl id="step3" class="option">
+                <dt>3 단계</dt>
+                <dd class="box1">제품 선택</dd>
+                <dd class="box2">&dtrif;</dd>
+            </dl>
+        </div>    
+    </main>
+    <div id="hellper">
+        <p>도움이 되셨나요?</p>
+        <input type="button" value="예" class="yes">
+        <input type="button" value="아니오" class="no">
+    </div>
+    <footer id="bottom">
+        <ul>
+            <li>이용약관&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+            <li>개인정보처리방침&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+            <li>소비자피해보상보험&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+            <li>사이트맵</li>
+        </ul>
+        <p>
+            *&nbsp;본 사이트의 컨텐츠는 저작권법의 보호를 받는 바, 상업적 목적의 무단전재, 복사, 배포 등을 금합니다.<br>
+            *&nbsp;고객님의 안정한 거래를 위해 현금 등의 거래를 통한 결제를 하실 경우,<br>
+            &nbsp;&nbsp;KG이니시스의 구매 안전서비스(채무지급보증)를 이용하실 수 있습니다.
+        </p>
+        <address>
+            사업장주소 : 서울특별시 영등포구 국제금융로 10 원아이에프씨 24F<br>사업자 등록번호 : 106-81-23810 통신판매번호 2012-서울영등포-1038 소니코리아㈜<br>대표이사 : Okura Kikuo개인정보관리책임자 : Okura KikuoTEL : 소니코리아 고객센터 1588-0911E-MAIL : cshelp@sony.co.kr
+            <p>Copyright © Sony Korea Corporation. All rights reserved.</p>
+        </address>
+        <div id="sns">
+            <p>FOLLOW US</p>
+            <ul class="sns_img">
+                <li><a href="https://www.facebook.com/sonykorea" target="_blank"><img src="images/common/ic_facebook.png" alt="facebook" width="32" height="32"></a></li>
+                <li><a href="https://www.instagram.com/sonykorea/" target="_blank"><img src="images/common/ic_instagram.png" alt="instar" width="32" height="32"></a></li>
+                <li><a href="https://www.youtube.com/user/sonystyleblog" target="_blank"><img src="images/common/ic_youtube.png" alt="youtube" width="32" height="32"></a></li>
+                <li><a href="https://stylezineblog.com/?intcmp=Main_Blog" target="_blank"><img src="images/common/ic_blog.png" alt="blue" width="32" height="32"></a></li>
+            </ul>
+            <div id="support">
+            <p>고객센터 : 1588-0911</p>
+            <p>고객센터 운영시간 : 09:00~17:00</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/* a태그 초기화 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "dongle";
+}
+
+/* font */
+@font-face {
+  font-family: "dongle";
+  src: local("Dongle-Regular"), url("../font/Dongle-Regular.eot"),
+    url("../font/Dongle-Regular.woff") format("woff"),
+    url("../font/Dongle-Regular.ttf") format("truetype");
+}
+
+/* header */
+html,
+body {
+  width: 100%;
+}
+#top {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+}
+#gnb {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+}
+#icon {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  height: 80px;
+  line-height: 100px;
+}
+#icon ul li {
+  float: left;
+  margin: 0 10px;
+}
+.logo a {
+  width: 176px;
+  height: 176px;
+  position: absolute;
+  background: url("../images/common/logo1.gif") no-repeat 0 50px;
+  top: -100px;
+}
+#menu1 {
+  position: absolute;
+  left: 400px;
+  z-index: 999;
+}
+#menu1 li {
+  width: 200px;
+  height: 80px;
+  float: left;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+#menu1 li a:hover {
+  color: #093687;
+}
+#menu1 li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  height: 30px;
+  font-size: 40px;
+  margin-bottom: 50px;
+  line-height: 80px;
+}
+#menu1 li .submenu li a {
+  color: #fff;
+  font-size: 30px;
+}
+#menu1 li .submenu li:hover {
+  background-color: #333;
+}
+/* .submenu {visibility: hidden;}
+#menu1:hover .submenu{visibility: visible;} */
+
+.fullmenu {
+  background-color: #000;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  z-index: 1;
+} /* 여기 추가 */

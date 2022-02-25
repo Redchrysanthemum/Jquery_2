@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+/* a태그 초기화 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "dongle";
+}
+
+/* font */
+@font-face {
+  font-family: "dongle";
+  src: local("Dongle-Regular"), url("../font/Dongle-Regular.eot"),
+    url("../font/Dongle-Regular.woff") format("woff"),
+    url("../font/Dongle-Regular.ttf") format("truetype");
+}
+
+/* section */
+#section {
+  margin-top: 180px;
+  clear: both;
+}
+#section > img {
+  margin-bottom: 90px;
+  width: 100%;
+}
+#section h2 {
+  font-size: 40px;
+  width: 110px;
+  margin-left: 130px;
+  margin-bottom: 20px;
+}
+#section > ul {
+  margin-left: 140px;
+}
+#section ul li {
+  float: left;
+  margin: 0 10px;
+}
+#section ul li a {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+a.selected {
+  color: #f00;
+}
+
+#sub_img {
+  clear: both;
+  position: relative;
+  width: 100%;
+}
+#camera_wrap {
+  width: 92%;
+  overflow: hidden;
+}
+#lens_wrap {
+  width: 92%;
+  overflow: hidden;
+}
+#acess_wrap {
+  width: 92%;
+  overflow: hidden;
+}
+
+.cimg {
+  margin-left: 10%;
+  padding-top: 40px;
+  width: 2400px;
+}
+/* .moveimg {margin-left: 400px;} */
+/*  #camera_img li:nth-child(n + 5) {display: none;} */
+/* #lens_img li:nth-child(n + 5) {display: none;}  */
+/* #camera_img {position: absolute; z-index: 1; top: 0; left: 0;}
+#lens_img{position: absolute; top: 0; left: 0;}
+#acess_img{position: absolute; top: 0; left: 0;}   */
+
+.btn_all {
+  position: absolute;
+  right: 50%;
+  top: 550px;
+  z-index: 10;
+}
+.btn_all li.next {
+  height: 36px;
+  width: 38px;
+  background: url("../images/common/next_btn.png") no-repeat 0 0;
+}
+.btn_all li.prev {
+  height: 36px;
+  width: 38px;
+  background: url("../images/common/prev_btn.png") no-repeat 0 0;
+}
+.btn_all li a {
+  display: block;
+  text-indent: -9999999999px;
+}
+
+.aside {
+  margin-top: 200px;
+  width: 100%;
+  clear: both;
+  height: 358px;
+}
+.aside img {
+  width: 100%;
+}
+#youtube {
+  font-size: 70px;
+  font-weight: bold;
+}
+.txt1 {
+  font-size: 30px;
+  text-align: center;
+  background-color: #000;
+  margin-top: -6px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+#see {
+  clear: both;
+  overflow: hidden;
+  width: 100%;
+  height: 750px;
+  position: relative;
+  margin-top: 300px;
+  padding-top: 100px;
+}
+h3 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#see h3 {
+  width: 480px;
+  position: absolute;
+  left: 700px;
+  top: 0;
+}
+#see_img {
+  position: absolute;
+  left: 363px;
+  width: 1400px;
+}
+.see_txt1 {
+  position: absolute;
+  background-color: rgba(100, 100, 100, 0.5);
+  width: 377px;
+  text-align: center;
+  height: 50px;
+  font-size: 50px;
+  line-height: 50px;
+  color: #fff;
+  bottom: 11px;
+}
+.see_txt2 {
+  position: absolute;
+  background-color: rgba(100, 100, 100, 0.5);
+  width: 377px;
+  text-align: center;
+  height: 50px;
+  font-size: 50px;
+  line-height: 46px;
+  color: #fff;
+  bottom: 11px;
+  left: 397px;
+}
+.see_txt3 {
+  position: absolute;
+  background-color: rgba(100, 100, 100, 0.5);
+  width: 377px;
+  text-align: center;
+  height: 50px;
+  font-size: 50px;
+  line-height: 50px;
+  color: #fff;
+  bottom: 11px;
+  right: 15%;
+}
+.see_txt4 {
+  position: absolute;
+  background-color: rgba(100, 100, 100, 0.5);
+  width: 377px;
+  text-align: center;
+  height: 50px;
+  font-size: 50px;
+  line-height: 50px;
+  color: #fff;
+  bottom: 11px;
+}
+.see_txt5 {
+  position: absolute;
+  background-color: rgba(100, 100, 100, 0.5);
+  width: 377px;
+  text-align: center;
+  height: 50px;
+  font-size: 50px;
+  line-height: 46px;
+  color: #fff;
+  bottom: 11px;
+  left: 397px;
+}
+.see_txt6 {
+  position: absolute;
+  background-color: rgba(100, 100, 100, 0.5);
+  width: 377px;
+  text-align: center;
+  height: 50px;
+  font-size: 50px;
+  line-height: 50px;
+  color: #fff;
+  bottom: 11px;
+  right: 15%;
+}
+
+#idea {
+  clear: both;
+  overflow: hidden;
+  width: 100%;
+  height: 750px;
+  position: relative;
+  padding-top: 100px;
+}
+#idea h3 {
+  width: 480px;
+  position: absolute;
+  left: 700px;
+  top: 0;
+}
+#idea_img {
+  position: absolute;
+  left: 363px;
+  margin-top: 10px;
+  width: 1400px;
+}
